@@ -1,25 +1,36 @@
+/*
+ * IVORY Framework
+ *
+ * A simple, flexible, powerful and fully responsive grid based front-end web framework 
+ * makes your web development faster and easier, & it takes you all the way from 1200px on down to 320px.
+ *
+ * Developed by Lakshmikanth Vallampati - kanth.vallampati@gmail.com
+ * 
+ */
+
 /* ---------------------------------------- HTML RESET ----------------------------------------- */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;
 }
-/* ------------------- HTML5 display-role reset for older browsers ----------------------------- */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, label, legend { display: block; }
 body { line-height: 1; }
-ul { list-style: none; }
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
 
-/* ------------------- Clearfixes ------------------- */
+/* --------------------------------------- Clearfixes ------------------------------------------ */
 .row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table}
 .row:after,.clearfix:after{clear:both}
 .row,.clearfix{zoom:1}
 
-/* --------------------------------- GRID Layout ----------------------------------------------- */
+/* --------------------------------------- GRID Layout ----------------------------------------- */
 *{box-sizing:border-box;-ms-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
-body{background-color: #ffffff; margin:0 auto;}
-.grid{margin:0 auto;max-width:1200px;width:100%} /* You can set the max width as 1200 or 1140 or 1024 or 960 or anything as per your requirement */
-.row{width:100%;}
+body{background-color: #f3faff; margin:0 auto;}
+.grid{margin:0 auto;max-width:1200px;width:100%;} /* You can choose the grid 1200 or 1140 or 1024 or 960 as per your requirement */
+.g1140{margin:0 auto;max-width:1140px;width:100%;}
+.g1024{margin:0 auto;max-width:1024px;width:100%;}
+.g960{margin:0 auto;max-width:960px;width:100%;}
+.row{width:100%; margin: 0 auto;}
 .c1{width:8.33%}
 .c2{width:16.66%}
 .c3{width:25%}
@@ -53,13 +64,22 @@ sub {bottom: -0.25em;}
 .text-right { text-align: right; }
 .text-center { text-align: center; }
 .text-justify { text-align: justify; }
-
 .space-top { margin-top: 20px; }
 .space-bot { margin-bottom: 20px; }
 .space-htop { margin-top: 10px; }
 .space-hbot { margin-bottom: 10px; }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: none; font-style: normal; color: #666666; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; }
+/* ------------------------------------------- Typography ---------------------------------------------- */
+h1, h2, h3, h4, h5, h6 { 
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; 
+	font-weight: none; 
+	font-style: normal; 
+	color: #666666; 
+	text-rendering: optimizeLegibility; 
+	line-height: 1.1; 
+	margin-bottom: 14px; 
+	margin-top: 14px; 
+}
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #666666; line-height: 0; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; text-decoration:none; }
 h1 { font-size: 36px; line-height: 42px; margin-bottom: 12px;}
@@ -72,12 +92,12 @@ h6 { font-size: 16px; line-height: 18px; }
 a { color: #2ba6cb; text-decoration: none; line-height: inherit; }
 a:hover { color: #2795b6; }
 a:focus { color: #2ba6cb; outline: none; }
-p { margin-bottom: 10px; font-size: 14px; line-height: 18px; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;}
+
+p { margin-bottom: 10px; padding:10px; font-size: 14px; line-height: 18px; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;}
 p span {color: #46aae3; }
 p a, p a:visited { line-height: inherit; }
-p.note { background-color: #dddddd; text-align: center; padding: 15px 0 20px; }
-
-p.alert { background-color: #fff6aa; border-color: #ffc814; text-align: center; padding: 15px 0 20px; }
+p.note { background-color: #ffffff; padding: 15px 10px 20px; box-shadow:0 1px 3px rgba(0,0,0,.3); -moz-box-shadow:0 1px 3px rgba(0,0,0,.3); -webkit-box-shadow:0 1px 3px rgba(0,0,0,.3);}
+p.alert { background-color: #fff6aa; border-color: #ffc814; padding: 15px 10px 20px; box-shadow:0 1px 3px rgba(0,0,0,.3); -moz-box-shadow:0 1px 3px rgba(0,0,0,.3); -webkit-box-shadow:0 1px 3px rgba(0,0,0,.3); }
 p.alert, p.alert * { color: #454545; text-shadow: 0 1px 0 rgba(255,255,255,0.6) !important;  }
 p.alert.success { background-color: #d7e87c; border-color: #97ae1e; }
 p.alert.error { background-color: #edb39b; border-color: #ed6127; }
@@ -89,8 +109,7 @@ small { font-size: 70%; line-height: inherit; }
 
 hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 20px 0 20px; height: 0; }
 
-
-/* --------------------------------- Lists ----------------------------------- */
+/* ----------------------------------------- Lists ------------------------------------------ */
 ul, ol, dl { font-size: 14px; line-height: 1.6; margin-bottom: 8px; list-style-position: inside; text-indent: 5px; color: #46aae3; }
 ul li ul, ul li ol { margin-left: 10px; margin-bottom: 0; }
 ul.square, ul.circle, ul.disc { margin-left: 12px; }
@@ -105,7 +124,7 @@ ul.large li { line-height: 21px; }
 ol { margin-left: 10px; }
 ol li ul, ol li ol { margin-left: 10px; margin-bottom: 0; }
 
-/* --------------------------------- Form Elements ----------------------------- */
+/* --------------------------------------- Form Elements ------------------------------------- */
 	form { margin-bottom: 20px; font: 14px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #777;}
 	fieldset { margin-bottom: 20px; }
 	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], select {
@@ -136,14 +155,13 @@ ol li ul, ol li ol { margin-left: 10px; margin-bottom: 0; }
 		   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5);
 		-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5);
 		}
-	textarea { min-height: 120px; }
-	label, legend { display: block; }
-	input[type="checkbox"] { display: inline; }
-	label span, legend span { font-size: 12px; color: #444; }
+	textarea{min-height:120px; }
+	input[type="checkbox"] {display:inline;}
+	label span, legend span { font-size:12px; color:#444;}
 
-/* ------------------------------ Buttons ------------------------------ */
-.btn{
-  display:inline-block;*display:inline;
+/* -------------------------------------------- Buttons ---------------------------------------- */
+button{
+	display:inline-block;*display:inline;
 	padding:7px 20px;
 	margin-bottom:10px;*margin-left:.3em;
 	font-size:14px;
@@ -169,29 +187,55 @@ ol li ul, ol li ol { margin-left: 10px; margin-bottom: 0; }
 	   -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
 	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
 }
-.btn:hover, .btn:active{
+button:hover, button:active{
 	background:#eee;
 	background:-webkit-gradient(linear, left top, left bottom, from(#eee), to(#f8f8f8));
 	background:-moz-linear-gradient(top, #eee, #f8f8f8);
 }
-.btn.large{padding:10px 35px;}
-.btn.small{padding:3px 13px; font-size:12px;}
-.btn.black{
+button.large{padding:10px 35px;}
+button.small{padding:3px 13px; font-size:12px;}
+button.skyblue{ /* --- skyblue color button --- */
 	color:#fff;
-	background-color:#111;
-	background: -moz-linear-gradient(#222, #111);
-	background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#111));
-	background: -webkit-linear-gradient(#222, #111);
-	background: -o-linear-gradient(#222, #111);
-	background: -ms-linear-gradient(#222, #111);
-	background: linear-gradient(#222, #111);
+	background-color:#26a2b6;
+	background: -moz-linear-gradient(#34bac9, #26a2b6);
+	background: -webkit-gradient(linear, left top, left bottom, from(#34bac9), to(#26a2b6));
+	background: -webkit-linear-gradient(#34bac9, #26a2b6);
+	background: -o-linear-gradient(#34bac9, #26a2b6);
+	background: -ms-linear-gradient(#34bac9, #26a2b6);
+	background: linear-gradient(#34bac9, #26a2b6);
 }
-.btn.black:hover, .btn.black:active{
-	background:#222;
-	background:-webkit-gradient(linear, left top, left bottom, from(#222), to(#333));
-	background:-moz-linear-gradient(top, #222, #333);
+button.skyblue:hover, button.black:active{
+	background:#a9016b;
+	background:-webkit-gradient(linear, left top, left bottom, from(#26a2b6), to(#34bac9));
+	background:-moz-linear-gradient(top, #26a2b6, #34bac9);
 }
-.btn.yellow{
+button.blue{ /* --- blue color button --- */
+	color:#fff;
+	background-color:#008fd5;
+	background:-webkit-gradient(linear, left top, left bottom, from(#008fd5), to(#0085c6));
+	background:-moz-linear-gradient(top, #008fd5, #0085c6);
+	filter:progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	filter:progid:dximagetransform.microsoft.gradient(enabled=false);*zoom:1;
+}
+button.blue:hover, button.blue:active{
+	background:#008fd5;
+	background:-webkit-gradient(linear, left top, left bottom, from(#008fd5), to(#009de9));
+	background:-moz-linear-gradient(top, #008fd5, #009de9);
+}
+button.green{ /* --- green color button --- */
+	color:#fff;
+	background-color:#46a546;
+	background:-webkit-gradient(linear, left top, left bottom, from(#46a546), to(#419a41));
+	background:-moz-linear-gradient(top, #46a546, #419a41);
+	filter:progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	filter:progid:dximagetransform.microsoft.gradient(enabled=false);*zoom:1;
+}
+button.green:hover, button.green:active{
+	background:#46a546;
+	background:-webkit-gradient(linear, left top, left bottom, from(#46a546), to(#4cb34c));
+	background:-moz-linear-gradient(top, #46a546, #4cb34c);
+}
+button.yellow{ /* --- yellow color button --- */
 	color:#fff;
 	background-color:#f0bf4a;
 	background: -moz-linear-gradient(#f0c930, #f0bf4a);
@@ -201,79 +245,168 @@ ol li ul, ol li ol { margin-left: 10px; margin-bottom: 0; }
 	background: -ms-linear-gradient(#f0c930, #f0bf4a);
 	background: linear-gradient(#f0c930, #f0bf4a);
 }
-.btn.yellow:hover, .btn.black:active{
+button.yellow:hover, button.black:active{
 	background:#f0bf4a;
 	background:-webkit-gradient(linear, left top, left bottom, from(#f0bf4a), to(#f0c930));
 	background:-moz-linear-gradient(top, #f0bf4a, #f0c930);
 }
-.btn.purple{
+button.orange{ /* --- orange color button --- */
 	color:#fff;
-	background-color:#d798d1;
-	background: -moz-linear-gradient(#d7a4e0, #d798d1);
-	background: -webkit-gradient(linear, left top, left bottom, from(#d7a4e0), to(#d798d1));
-	background: -webkit-linear-gradient(#d7a4e0, #d798d1);
-	background: -o-linear-gradient(#d7a4e0, #d798d1);
-	background: -ms-linear-gradient(#d7a4e0, #d798d1);
-	background: linear-gradient(#d7a4e0, #d798d1);
+	background-color:#ff5c00;
+	background: -moz-linear-gradient(#ff6f40, #ff5c00);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff6f40), to(#ff5c00));
+	background: -webkit-linear-gradient(#ff6f40, #ff5c00);
+	background: -o-linear-gradient(#ff6f40, #ff5c00);
+	background: -ms-linear-gradient(#ff6f40, #ff5c00);
+	background: linear-gradient(#ff6f40, #ff5c00);
 }
-.btn.purple:hover, .btn.black:active{
+button.orange:hover, button.black:active{
 	background:#d798d1;
-	background:-webkit-gradient(linear, left top, left bottom, from(#d798d1), to(#d7a4e0));
-	background:-moz-linear-gradient(top, #d798d1, #d7a4e0);
+	background:-webkit-gradient(linear, left top, left bottom, from(#ff5c00), to(#ff6f40));
+	background:-moz-linear-gradient(top, #ff5c00, #ff6f40);
 }
-.btn.blue{
-	color:#fff;
-	background-color:#008fd5;
-	background:-webkit-gradient(linear, left top, left bottom, from(#008fd5), to(#0085c6));
-	background:-moz-linear-gradient(top, #008fd5, #0085c6);
-	filter:progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffe6e6e6', GradientType=0);
-	filter:progid:dximagetransform.microsoft.gradient(enabled=false);*zoom:1;
-	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
-	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);	
-}
-.btn.blue:hover, .btn.blue:active{
-	background:#008fd5;
-	background:-webkit-gradient(linear, left top, left bottom, from(#008fd5), to(#009de9));
-	background:-moz-linear-gradient(top, #008fd5, #009de9);
-}
-.btn.green{
-	color:#fff;
-	background-color:#46a546;
-	background:-webkit-gradient(linear, left top, left bottom, from(#46a546), to(#419a41));
-	background:-moz-linear-gradient(top, #46a546, #419a41);
-	filter:progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
-	filter:progid:dximagetransform.microsoft.gradient(enabled=false);*zoom:1;
-	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
-	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
-	box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
-}
-.btn.green:hover, .btn.green:active{
-	background:#46a546;
-	background:-webkit-gradient(linear, left top, left bottom, from(#46a546), to(#4cb34c));
-	background:-moz-linear-gradient(top, #46a546, #4cb34c);
-}
-.btn.red{
+button.red{ /* --- red color button --- */
   color:#fff;
   background-color:#bd362f;
   background:-webkit-gradient(linear, left top, left bottom, from(#bd362f), to(#b1322c));
   background:-moz-linear-gradient(top, #bd362f, #b1322c);
   filter:progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
   filter:progid:dximagetransform.microsoft.gradient(enabled=false);*zoom:1;
-  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
-  -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
-  box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
 }
-.btn.red:hover, .btn-red:active{
+button.red:hover, button-red:active{
   background:#bd362f;
   background:-webkit-gradient(linear, left top, left bottom, from(#bd362f), to(#cc3b34));
   background:-moz-linear-gradient(top, #bd362f, #cc3b34);
 }
+button.magenta{	/* --- magenta color button --- */
+	color:#fff;
+	background-color:#b9298f;
+	background: -moz-linear-gradient(#b93180, #b9298f);
+	background: -webkit-gradient(linear, left top, left bottom, from(#b93180), to(#b9298f));
+	background: -webkit-linear-gradient(#b93180, #b9298f);
+	background: -o-linear-gradient(#b93180, #b9298f);
+	background: -ms-linear-gradient(#b93180, #b9298f);
+	background: linear-gradient(#b93180, #b9298f);
+}
+button.magenta:hover, button.black:active{
+	background:#b9298f;
+	background:-webkit-gradient(linear, left top, left bottom, from(#b9298f), to(#b9358f));
+	background:-moz-linear-gradient(top, #b9298f, #b9358f);
+}
+button.black{ /* --- black color button --- */
+	color:#fff;
+	background-color:#111;
+	background: -moz-linear-gradient(#222, #111);
+	background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#111));
+	background: -webkit-linear-gradient(#222, #111);
+	background: -o-linear-gradient(#222, #111);
+	background: -ms-linear-gradient(#222, #111);
+	background: linear-gradient(#222, #111);
+}
+button.black:hover, button.black:active{
+	background:#222;
+	background:-webkit-gradient(linear, left top, left bottom, from(#222), to(#333));
+	background:-moz-linear-gradient(top, #222, #333);
+}
 
-	
+/* ----------------------------------------- Tabs ----------------------------------------- */
+.tab-container{ position: relative; height:300px;} /* You have to change the height based on your content */
+.tab-container .tab-radio{ display: none;}
+.tab-container .tab{
+	display: block;
+	float: left;
+	position: relative;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border: 1px solid #cfd2d7;
+	color: #888;
+	margin-top: -7px;
+	margin-right: 1.2%;
+	padding: 5px 20px;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	background-color: #eee;
+}
+.tab-container .tab-radio:checked ~ .tab, .tab-container .tab-radio:active ~ .tab
+{
+	background-color: #fff;
+	z-index: 100;
+	border-bottom: 1px solid #fff;
+}
+.tab-container .tab-radio:checked ~ .tab { 
+	background-color:#fff; 
+	color:#333;
+}
+.tab-container .tab-page
+{
+	visibility: hidden;
+	background-color: #fff;
+	color: #888;
+	display:block;
+	position: absolute;
+	top: 22px;
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 5px;
+	border: 1px solid #cfd2d7;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	        box-shadow:0 1px 3px rgba(0,0,0,.3);
+	   -moz-box-shadow:0 1px 3px rgba(0,0,0,.3);
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,.3);
+}
+.tab-container .tab-radio:checked ~ .tab-page { visibility: visible; }
+
+/* ------------------------------- Accordion -------------------------------------- */
+.accordion {
+    width:100%;
+    background:#fff;
+	font-size:14px;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+    box-shadow:0 1px 3px rgba(0,0,0,.3);
+	-moz-box-shadow:0 1px 3px rgba(0,0,0,.3);
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,.3);
+  }
+  .accordion p{
+    height:0;
+	margin-bottom:0px;
+    padding:0;
+	color: #888;
+    overflow:hidden;
+  }
+  .accordion a{
+    display:block;
+    height:auto;
+	padding:5px;
+    line-height:24px;
+	background-color: #eee;
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+    border-bottom:1px solid #aaa;
+  }
+  .accordion a:hover, .accordion a:focus {
+    opacity:.9; color:#ooo;
+  }
+  .accordion a:active {
+    color:#000;
+  }
+  .accordion :target + p{
+    padding:10px 15px;
+    border-bottom:1px solid #ccc;
+	height: auto;
+  }	
+
 /* =Media query for 960 Screens - sets nested grids to 100%
 -------------------------------------------------------------- */
 @media only screen and (max-width:960px){
-.row .row .c1,.row .row .c2,.row .row .c3,.row .row .c4,.row .row .c5,.row .row .c6,.row .row .c7,.row .row .c8,.row .row .c9,.row .row .c10,.row .row .c11,.row .row .c12,.row .row .c1-5,.row .row .c1-8{width:100%;margin-bottom:20px}
+.row .row .c1,.row .row .c2,.row .row .c3,.row .row .c4,.row .row .c5,.row .row .c6,.row .row .c7,.row .row .c8,.row .row .c9,.row .row .c10,.row .row .c11,.row .row .c12,.row .row .c1-5,.row .row .c1-8{width:100%;margin-bottom:20px;margin-left:0px;margin-right:0px; }
 .row .row > div:last-child{margin-bottom:0 !important}
 }
 
