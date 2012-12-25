@@ -5,6 +5,7 @@
  * makes your web development faster and easier, & it takes you all the way from 1200px on down to 320px.
  *
  * Developed by Lakshmikanth Vallampati - kanth.vallampati@gmail.com
+ * Licensed under GPLv2
  * 
  */
 
@@ -166,7 +167,7 @@ button{
 	margin-bottom:10px;*margin-left:.3em;
 	font-size:14px;
 	line-height:20px;*line-height:20px;
-	color:#333;
+	color:#333 !important;
 	text-align:center;
 	vertical-align:middle;
 	cursor:pointer;
@@ -195,7 +196,7 @@ button:hover, button:active{
 button.large{padding:10px 35px;}
 button.small{padding:3px 13px; font-size:12px;}
 button.skyblue{ /* --- skyblue color button --- */
-	color:#fff;
+	color:#fff !important;
 	background-color:#26a2b6;
 	background: -moz-linear-gradient(#34bac9, #26a2b6);
 	background: -webkit-gradient(linear, left top, left bottom, from(#34bac9), to(#26a2b6));
@@ -210,7 +211,7 @@ button.skyblue:hover, button.black:active{
 	background:-moz-linear-gradient(top, #26a2b6, #34bac9);
 }
 button.blue{ /* --- blue color button --- */
-	color:#fff;
+	color:#fff !important;
 	background-color:#008fd5;
 	background:-webkit-gradient(linear, left top, left bottom, from(#008fd5), to(#0085c6));
 	background:-moz-linear-gradient(top, #008fd5, #0085c6);
@@ -223,7 +224,7 @@ button.blue:hover, button.blue:active{
 	background:-moz-linear-gradient(top, #008fd5, #009de9);
 }
 button.green{ /* --- green color button --- */
-	color:#fff;
+	color:#fff !important;
 	background-color:#46a546;
 	background:-webkit-gradient(linear, left top, left bottom, from(#46a546), to(#419a41));
 	background:-moz-linear-gradient(top, #46a546, #419a41);
@@ -236,7 +237,7 @@ button.green:hover, button.green:active{
 	background:-moz-linear-gradient(top, #46a546, #4cb34c);
 }
 button.yellow{ /* --- yellow color button --- */
-	color:#fff;
+	color:#fff !important;
 	background-color:#f0bf4a;
 	background: -moz-linear-gradient(#f0c930, #f0bf4a);
 	background: -webkit-gradient(linear, left top, left bottom, from(#f0c930), to(#f0bf4a));
@@ -251,7 +252,7 @@ button.yellow:hover, button.black:active{
 	background:-moz-linear-gradient(top, #f0bf4a, #f0c930);
 }
 button.orange{ /* --- orange color button --- */
-	color:#fff;
+	color:#fff !important;
 	background-color:#ff5c00;
 	background: -moz-linear-gradient(#ff6f40, #ff5c00);
 	background: -webkit-gradient(linear, left top, left bottom, from(#ff6f40), to(#ff5c00));
@@ -266,7 +267,7 @@ button.orange:hover, button.black:active{
 	background:-moz-linear-gradient(top, #ff5c00, #ff6f40);
 }
 button.red{ /* --- red color button --- */
-  color:#fff;
+  color:#fff !important;
   background-color:#bd362f;
   background:-webkit-gradient(linear, left top, left bottom, from(#bd362f), to(#b1322c));
   background:-moz-linear-gradient(top, #bd362f, #b1322c);
@@ -279,7 +280,7 @@ button.red:hover, button-red:active{
   background:-moz-linear-gradient(top, #bd362f, #cc3b34);
 }
 button.magenta{	/* --- magenta color button --- */
-	color:#fff;
+	color:#fff !important;
 	background-color:#b9298f;
 	background: -moz-linear-gradient(#b93180, #b9298f);
 	background: -webkit-gradient(linear, left top, left bottom, from(#b93180), to(#b9298f));
@@ -294,7 +295,7 @@ button.magenta:hover, button.black:active{
 	background:-moz-linear-gradient(top, #b9298f, #b9358f);
 }
 button.black{ /* --- black color button --- */
-	color:#fff;
+	color:#fff !important;
 	background-color:#111;
 	background: -moz-linear-gradient(#222, #111);
 	background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#111));
