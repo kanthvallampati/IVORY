@@ -3,6 +3,16 @@
 <head>
 	<title>IVORY Framework</title>
 	<link rel="stylesheet" type="text/css" href="css/ivory.css"/>
+	<!-- For Date picker only --> 
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	<script>
+	  $(document).ready(function() {
+	    $("#datepicker").datepicker();
+	  });
+	</script>
+	<!-- For Date picker only -->
 </head>
 <body>
 	<div class="grid">
@@ -58,171 +68,175 @@
 			<div class="c11"><p class="note text-center">11 columns</p></div>
 			<div class="c1"><p class="note text-center">1 column</p></div>
 		</div>
+		
 		<hr>
+		
 		<!-- 1140, 1024, 960 grids --> 
-			<div class="g1140 space-bot">
-				<div class="row space-top space-bot">
-					<h4 class="text-center">FLUID GRID LAYOUT - WIDTH 1140PX</h4>
-				</div>
-				<div class="row space-bot">
-					<div class="c12"><p class="note text-center">12 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c1"><p class="note text-center">1 column</p></div>
-					<div class="c11"><p class="note text-center">11 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c2"><p class="note text-center">2 columns</p></div>
-					<div class="c10"><p class="note text-center">10 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c3"><p class="note text-center">3 columns</p></div>
-					<div class="c9"><p class="note text-center">9 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c4"><p class="note text-center">4 columns</p></div>
-					<div class="c8"><p class="note text-center">8 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c5"><p class="note text-center">5 columns</p></div>
-					<div class="c7"><p class="note text-center">7 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c6"><p class="note text-center">6 columns</p></div>
-					<div class="c6"><p class="note text-center">6 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c7"><p class="note text-center">7 columns</p></div>
-					<div class="c5"><p class="note text-center">5 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c8"><p class="note text-center">8 columns</p></div>
-					<div class="c4"><p class="note text-center">4 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c9"><p class="note text-center">9 columns</p></div>
-					<div class="c3"><p class="note text-center">3 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c10"><p class="note text-center">10 columns</p></div>
-					<div class="c2"><p class="note text-center">2 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c11"><p class="note text-center">11 columns</p></div>
-					<div class="c1"><p class="note text-center">1 column</p></div>
-				</div>
+		<div class="g1140 space-bot">
+			<div class="row space-top space-bot">
+				<h4 class="text-center">FLUID GRID LAYOUT - WIDTH 1140PX</h4>
 			</div>
+			<div class="row space-bot">
+				<div class="c12"><p class="note text-center">12 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c1"><p class="note text-center">column</p></div>
+				<div class="c11"><p class="note text-center">11 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c2"><p class="note text-center">2 columns</p></div>
+				<div class="c10"><p class="note text-center">10 columns</p></div>
+			</div>
+			<div class="row space-bot">
+					<div class="c3"><p class="note text-center">3 columns</p></div>
+					<div class="c9"><p class="note text-center">9 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c4"><p class="note text-center">4 columns</p></div>
+				<div class="c8"><p class="note text-center">8 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c5"><p class="note text-center">5 columns</p></div>
+				<div class="c7"><p class="note text-center">7 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c6"><p class="note text-center">6 columns</p></div>
+				<div class="c6"><p class="note text-center">6 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c7"><p class="note text-center">7 columns</p></div>
+				<div class="c5"><p class="note text-center">5 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c8"><p class="note text-center">8 columns</p></div>
+				<div class="c4"><p class="note text-center">4 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c9"><p class="note text-center">9 columns</p></div>
+				<div class="c3"><p class="note text-center">3 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c10"><p class="note text-center">10 columns</p></div>
+				<div class="c2"><p class="note text-center">2 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c11"><p class="note text-center">11 columns</p></div>
+				<div class="c1"><p class="note text-center">column</p></div>
+			</div>
+		</div>
+		
 		<hr>	
-			<div class="g1024 space-bot">
-				<div class="row space-top space-bot">
-					<h4 class="text-center">FLUID GRID LAYOUT - WIDTH 1024PX</h4>
-				</div>
-				<div class="row space-bot">
-					<div class="c12">
-						<p class="note text-center">12 columns</p>
-					</div>
-				</div>
-				<div class="row space-bot">
-					<div class="c1"><p class="note text-center">1 column</p></div>
-					<div class="c11"><p class="note text-center">11 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c2"><p class="note text-center">2 columns</p></div>
-					<div class="c10"><p class="note text-center">10 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c3"><p class="note text-center">3 columns</p></div>
-					<div class="c9"><p class="note text-center">9 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c4"><p class="note text-center">4 columns</p></div>
-					<div class="c8"><p class="note text-center">8 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c5"><p class="note text-center">5 columns</p></div>
-					<div class="c7"><p class="note text-center">7 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c6"><p class="note text-center">6 columns</p></div>
-					<div class="c6"><p class="note text-center">6 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c7"><p class="note text-center">7 columns</p></div>
-					<div class="c5"><p class="note text-center">5 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c8"><p class="note text-center">8 columns</p></div>
-					<div class="c4"><p class="note text-center">4 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c9"><p class="note text-center">9 columns</p></div>
-					<div class="c3"><p class="note text-center">3 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c10"><p class="note text-center">10 columns</p></div>
-					<div class="c2"><p class="note text-center">2 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c11"><p class="note text-center">11 columns</p></div>
-					<div class="c1"><p class="note text-center">1 column</p></div>
-				</div>
+		
+		<div class="g1024 space-bot">
+			<div class="row space-top space-bot">
+				<h4 class="text-center">FLUID GRID LAYOUT - WIDTH 1024PX</h4>
 			</div>
-		<hr>
-			<div class="g960 space-bot">
-				<div class="row space-top space-bot">
-					<h4 class="text-center">FLUID GRID LAYOUT - WIDTH 960PX</h4>
-				</div>
-				<div class="row space-bot">
-					<div class="c12">
-						<p class="note text-center">12 columns</p>
-					</div>
-				</div>
-				<div class="row space-bot">
-					<div class="c1"><p class="note text-center">1 column</p></div>
-					<div class="c11"><p class="note text-center">11 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c2"><p class="note text-center">2 columns</p></div>
-					<div class="c10"><p class="note text-center">10 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c3"><p class="note text-center">3 columns</p></div>
-					<div class="c9"><p class="note text-center">9 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c4"><p class="note text-center">4 columns</p></div>
-					<div class="c8"><p class="note text-center">8 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c5"><p class="note text-center">5 columns</p></div>
-					<div class="c7"><p class="note text-center">7 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c6"><p class="note text-center">6 columns</p></div>
-					<div class="c6"><p class="note text-center">6 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c7"><p class="note text-center">7 columns</p></div>
-					<div class="c5"><p class="note text-center">5 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c8"><p class="note text-center">8 columns</p></div>
-					<div class="c4"><p class="note text-center">4 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c9"><p class="note text-center">9 columns</p></div>
-					<div class="c3"><p class="note text-center">3 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c10"><p class="note text-center">10 columns</p></div>
-					<div class="c2"><p class="note text-center">2 columns</p></div>
-				</div>
-				<div class="row space-bot">
-					<div class="c11"><p class="note text-center">11 columns</p></div>
-					<div class="c1"><p class="note text-center">1 column</p></div>
-				</div>
+			<div class="row space-bot">
+				<div class="c12"><p class="note text-center">12 columns</p></div>
 			</div>
+			<div class="row space-bot">
+				<div class="c1"><p class="note text-center">column</p></div>
+				<div class="c11"><p class="note text-center">11 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c2"><p class="note text-center">2 columns</p></div>
+				<div class="c10"><p class="note text-center">10 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c3"><p class="note text-center">3 columns</p></div>
+				<div class="c9"><p class="note text-center">9 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c4"><p class="note text-center">4 columns</p></div>
+				<div class="c8"><p class="note text-center">8 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c5"><p class="note text-center">5 columns</p></div>
+				<div class="c7"><p class="note text-center">7 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c6"><p class="note text-center">6 columns</p></div>
+				<div class="c6"><p class="note text-center">6 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c7"><p class="note text-center">7 columns</p></div>
+				<div class="c5"><p class="note text-center">5 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c8"><p class="note text-center">8 columns</p></div>
+				<div class="c4"><p class="note text-center">4 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c9"><p class="note text-center">9 columns</p></div>
+				<div class="c3"><p class="note text-center">3 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c10"><p class="note text-center">10 columns</p></div>
+				<div class="c2"><p class="note text-center">2 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c11"><p class="note text-center">11 columns</p></div>
+				<div class="c1"><p class="note text-center">column</p></div>
+			</div>
+		</div>
+
 		<hr>
+
+		<div class="g960 space-bot">
+			<div class="row space-top space-bot">
+				<h4 class="text-center">FLUID GRID LAYOUT - WIDTH 960PX</h4>
+			</div>
+			<div class="row space-bot">
+				<div class="c12"><p class="note text-center">12 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c1"><p class="note text-center">column</p></div>
+				<div class="c11"><p class="note text-center">11 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c2"><p class="note text-center">2 columns</p></div>
+				<div class="c10"><p class="note text-center">10 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c3"><p class="note text-center">3 columns</p></div>
+				<div class="c9"><p class="note text-center">9 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c4"><p class="note text-center">4 columns</p></div>
+				<div class="c8"><p class="note text-center">8 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c5"><p class="note text-center">5 columns</p></div>
+				<div class="c7"><p class="note text-center">7 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c6"><p class="note text-center">6 columns</p></div>
+				<div class="c6"><p class="note text-center">6 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c7"><p class="note text-center">7 columns</p></div>
+				<div class="c5"><p class="note text-center">5 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c8"><p class="note text-center">8 columns</p></div>
+				<div class="c4"><p class="note text-center">4 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c9"><p class="note text-center">9 columns</p></div>
+				<div class="c3"><p class="note text-center">3 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c10"><p class="note text-center">10 columns</p></div>
+				<div class="c2"><p class="note text-center">2 columns</p></div>
+			</div>
+			<div class="row space-bot">
+				<div class="c11"><p class="note text-center">11 columns</p></div>
+				<div class="c1"><p class="note text-center">column</p></div>
+			</div>
+		</div>
+			
+		<hr>
+		
 		<!-- Grid Splitation -->
 		<div class="row space-bot">
 			<h4 class="text-center">GRID SPLITATION</h4>
@@ -294,14 +308,17 @@
 					<div class="c6 space-bot"><p class="note text-center">nested column</p></div>
 				</div>
 				<div class="row">
-					<div class="c6"><p class="note text-center">nested column</p></div>
-					<div class="c6"><p class="note text-center">nested column</p></div>
+					<div class="c4"><p class="note text-center">nested column</p></div>
+					<div class="c4"><p class="note text-center">nested column</p></div>
+					<div class="c4"><p class="note text-center">nested column</p></div>
 				</div>
 			</div>
 		</div>
+
 		<hr>
+
 		<div class="row spce-bot">
-			<div class="c12">
+			<div class="c6">
 				<h4 class="text-center space-bot">TYPOGRAPHY</h4>
 				<h1>Heading h1<small>Small Heading</small></h1>
 				<h2>Heading h2<small>Small Heading</small></h2>
@@ -310,8 +327,11 @@
 				<h5>Heading h5</h5>
 				<h6>Heading h6</h6>
 			</div>
+			<div class="c6"></div>
 		</div>
+		
 		<hr>
+		
 		<div class="row space-bot">
 			<h4 class="text-center space-bot">LISTS</h4>
 			<div class="c3">
@@ -347,127 +367,155 @@
 				</ol>
 			</div>
 		</div>
+		
 		<hr>
+		
 		<div class="row space-bot">
 			<div class="c4">
 				<h4 class="text-center">FORM</h4>
 				<form>
-				  <label for="Input">Input</label>
-				  <input type="text" id="regularInput" />
-				  <label for="Textarea">Textarea</label>
-				  <textarea id="regularTextarea"></textarea>
-				  <label for="selectList">Select List</label>
-				  <select id="selectList">
-					<option value="Option 1">Option 1</option>
-					<option value="Option 2">Option 2</option>
-					<option value="Option 3">Option 3</option>
-				  </select>
-				  <fieldset>
+					<label>Input</label>
+					<input type="text" id="regularInput" />
+					
+					<label>Textarea</label>
+					<textarea id="regularTextarea"></textarea>
+					
+					<label>Select List</label>
+					<select id="selectList">
+						<option value="Option 1">Option 1</option>
+						<option value="Option 2">Option 2</option>
+						<option value="Option 3">Option 3</option>
+					</select>
+					
+					<label>Datepicker</label>
+					<input type="date" id="datepicker" />
+					
+					<fieldset>
 					<label for="">Checkboxes</label>
-					<label for="regularCheckbox">
-					  <input type="checkbox" id="regularCheckbox" value="checkbox 1" />
-					  <span>Regular Checkbox</span>
+					<label>
+						<input type="checkbox" id="regularCheckbox" value="checkbox 1" />
+						<span>Regular Checkbox</span>
 					</label>
-					<label for="secondRegularCheckbox">
-					  <input type="checkbox" id="secondRegularCheckbox" value="checkbox 2" />
-					  <span>Regular Checkbox</span>
+					<label>
+						<input type="checkbox" id="secondRegularCheckbox" value="checkbox 2" />
+						<span>Regular Checkbox</span>
 					</label>
-				  </fieldset>
-				  <fieldset>
+					</fieldset>
+					
+					<fieldset>
 					<label for="">Radio Buttons</label>
-					<label for="regularRadio">
-					  <input type="radio" name="radios" id="regularRadio" value="radio 1" />
-					  <span>Regular Radio</span>
+					<label>
+						<input type="radio" name="radios" id="regularRadio" value="radio 1" />
+						<span>Regular Radio</span>
 					</label>
-					<label for="secondRegularRadio">
-					  <input type="radio" name="radios" id="secondRegularRadio" value="radio 2" />
-					  <span>Regular Radio</span>
+					<label>
+						<input type="radio" name="radios" id="secondRegularRadio" value="radio 2" />
+						<span>Regular Radio</span>
 					</label>
-				  </fieldset>
+					</fieldset>
 				</form>
 			</div>
-			<div class="c4">
+			<div class="c4 text-center">
 				<h4 class="text-center">BUTTONS</h4>
-				<p><button type="submit" class="small">Button</button> <button type="submit">Button</button> <button type="submit" class="large">Button</button></p>
-				<p><button type="submit">Button</button> <button type="submit" class="skyblue">Button</button> <button type="submit" class="blue">Button</button></p>
-				<p><button type="submit" class="green">Button</button> <button type="submit" class="yellow">Button</button> <button type="submit" class="orange">Button</button></p>
-				<p><button type="submit" class="red">Button</button> <button type="submit" class="magenta">Button</button> <button type="submit" class="black">Button</button></p>
-				<p></p>
+				<p>
+					<button type="submit" class="small">Small</button> 
+					<button type="submit">Default</button> 
+					<button type="submit" class="large">Large</button>
+				</p>
+				<p>
+					<button type="submit">Button</button> 
+					<button type="submit" class="skyblue">Button</button> 
+					<button type="submit" class="blue">Button</button>
+				</p>
+				<p>
+					<button type="submit" class="green">Button</button> 
+					<button type="submit" class="yellow">Button</button> 
+					<button type="submit" class="orange">Button</button>
+				</p>
+				<p>
+					<button type="submit" class="red">Button</button> 
+					<button type="submit" class="magenta">Button</button> 
+					<button type="submit" class="black">Button</button>
+				</p>
 			</div>
 			<div class="c4">
 				<h4 class="text-center">ALERTS</h4>
-				<p class="alert text-center">This is a warning messsage</p>
-				<p class="alert success text-center">This is a success message</p>
-				<p class="alert error text-center">This is an error message</p>
-				<p class="alert info text-center">This is an info message</p>
+				<div class="alert">Example of an alert box.</div>
+				<div class="alert success">Example of the successful alert box</div>
+				<div class="alert error">Example of the error alert box</div>
+				<div class="alert info">Example of the information alert box</div>
 			</div>
 		</div>
 		<hr>
 		<div class="row spce-bot">
-			<div class="c12">
+			<div class="c6">
 				<h4 class="text-center">TABLE</h4>
 				<table>
-					<thead>
-						<tr>
-							<th>#</th>        
-							<th>Highest grossing bollywood films</th>
-							<th>Gross</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>1</td>        
-							<td>3 Idiots</td>
-							<td>$ 70.07 million</td>
-						</tr>        
-						<tr>
-							<td>2</td>         
-							<td>Bodyguard</td>
-							<td>$ 41.86 million</td>
-						</tr>
-						<tr>
-							<td>3</td>         
-							<td>My name is khan</td>
-							<td>$ 36.4 million</td>
-						</tr>    
-						<tr>
-							<td>4</td> 
-							<td>Om Shanti Om</td>
-							<td>$ 27.12 million</td>
-						</tr>
-						<tr>
-							<td>5</td> 
-							<td>Singh is king</td>
-							<td>$ 22.75 million</td>
-						</tr>
-						<tr>
-							<td>6</td> 
-							<td>Ra. One</td>
-							<td>$ 20.93 million</td>
-						</tr>
-						<tr>
-							<td>7</td> 
-							<td>Jodhaa Akbar</td>
-							<td>$ 20.38 million</td>
-						</tr>
-						    
-						<tr>
-							<td>8</td> 
-							<td>Don 2</td>
-							<td>$ 19.29 million</td>
-						</tr>
-						<tr>
-							<td>9</td> 
-							<td>Dhoom 2</td>
-							<td>$ 14.56 million</td>
-						</tr>
-						<tr>
-							<td>10</td> 
-							<td>Housefull</td>
-							<td>$ 13.1 million</td>
-						</tr> 
-					</tbody>
+					<tr>
+						<th class="text-center">#</th><th>Highest grossing bollywood films</th><th>Gross</th>
+					</tr>
+					<tr>
+						<td class="text-center">1</td><td>3 Idiots</td><td>$ 70.07 million</td>
+					</tr>        
+					<tr class="even">
+						<td class="text-center">2</td><td>Bodyguard</td><td>$ 41.86 million</td>
+					</tr>
+					<tr>
+						<td class="text-center">3</td><td>My name is khan</td><td>$ 36.4 million</td>
+					</tr>    
+					<tr class="even">
+						<td class="text-center">4</td><td>Om Shanti Om</td><td>$ 27.12 million</td>
+					</tr>
+					<tr>
+						<td class="text-center">5</td><td>Singh is king</td><td>$ 22.75 million</td>
+					</tr>
+					<tr class="even">
+						<td class="text-center">6</td><td>Ra. One</td><td>$ 20.93 million</td>
+					</tr>
+					<tr>
+						<td class="text-center">7</td><td>Jodhaa Akbar</td><td>$ 20.38 million</td>
+					</tr>
+					<tr class="even">
+						<td class="text-center">8</td><td>Don 2</td><td>$ 19.29 million</td>
+					</tr>
+					<tr>
+						<td class="text-center">9</td><td>Dhoom 2</td><td>$ 14.56 million</td>
+					</tr>
+					<tr class="even">
+						<td class="text-center">10</td><td>Housefull</td><td>$ 13.1 million</td>
+					</tr> 
 				</table>
+			</div>
+			<div class="c6 text-center">
+				<h4 class="">PAGINATION</h4>
+				<br>
+				<ul class="paginate">
+					<li><a href=""><strong>&lsaquo;</strong></a></li>
+					<li><a href="">1</a></li>
+					<li><a href="" class="active">2</a></li>
+					<li><a href="">3</a></li>
+					<li><a href="">4</a></li>
+					<li><a href="">5</a></li>
+					<li><a href="" class="more">&hellip;</a></li>
+					<li><a href="">18</a></li>
+					<li><a href="">19</a></li>
+					<li><a href="">20</a></li>
+					<li><a href=""><strong>&rsaquo;</strong></a></li>
+				</ul>
+				<br>
+				<ul class="paginate paginate-dark">
+					<li><a href=""><strong>&lsaquo;</strong></a></li>
+					<li><a href="">1</a></li>
+					<li><a href="" class="active">2</a></li>
+					<li><a href="">3</a></li>
+					<li><a href="">4</a></li>
+					<li><a href="">5</a></li>
+					<li><a href="" class="more">&hellip;</a></li>
+					<li><a href="">18</a></li>
+					<li><a href="">19</a></li>
+					<li><a href="">20</a></li>
+					<li><a href=""><strong>&rsaquo;</strong></a></li>
+				</ul>
 			</div>
 		</div>
 		<hr>
