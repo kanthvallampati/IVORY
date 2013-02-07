@@ -3,6 +3,17 @@
 <head>
 	<title>IVORY Framework</title>
 	<link rel="stylesheet" type="text/css" href="css/ivory.css"/>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-38011618-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 	<!-- For Date picker only --> 
 	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -334,7 +345,7 @@
 		
 		<div class="row space-bot">
 			<h4 class="text-center space-bot">LISTS</h4>
-			<div class="c3">
+			<div class="c1-5">
 				<ul class="circle">
 					<li>List Item 1</li>
 					<li>List Item 2</li>
@@ -342,7 +353,7 @@
 					<li>List Item 4</li>
 				</ul>
 			</div>
-			<div class="c3">
+			<div class="c1-5">
 				<ul class="square">
 					<li>List Item 1</li>
 					<li>List Item 2</li>
@@ -350,7 +361,7 @@
 					<li>List Item 4</li>
 				</ul>
 			</div>
-			<div class="c3">
+			<div class="c1-5">
 				<ul class="disc">
 					<li>List Item 1</li>
 					<li>List Item 2</li>
@@ -358,13 +369,21 @@
 					<li>List Item 4</li>
 				</ul>
 			</div>
-			<div class="c3">
+			<div class="c1-5">
 				<ol>
 					<li>List Item 1</li>
 					<li>List Item 2</li>
 					<li>List Item 3</li>
 					<li>List Item 4</li>
 				</ol>
+			</div>
+			<div class="c1-5">
+				<dl>
+					<dt>List Heading</dt>
+					<dd>List Item 1</dd>
+					<dd>List Item 2</dd>
+					<dd>List Item 3</dd>
+				</dl>
 			</div>
 		</div>
 		
@@ -375,47 +394,47 @@
 				<h4 class="text-center">FORM</h4>
 				<form>
 					<label>Input</label>
-					<input type="text" id="regularInput" />
-					
-					<label>Textarea</label>
-					<textarea id="regularTextarea"></textarea>
-					
+					<input type="text" name="" id="" placeholder="Sample Input" />
+				
+					<label>Datepicker</label>
+					<input type="date" name="" id="datepicker" placeholder="mm/dd/yyyy" />
+				
 					<label>Select List</label>
-					<select id="selectList">
+					<select name="" id="">
 						<option value="Option 1">Option 1</option>
 						<option value="Option 2">Option 2</option>
 						<option value="Option 3">Option 3</option>
 					</select>
-					
-					<label>Datepicker</label>
-					<input type="date" id="datepicker" />
-					
+				
+					<label>Textarea</label>
+					<textarea name="" id=""></textarea>
+	
 					<fieldset>
-					<label for="">Checkboxes</label>
-					<label>
-						<input type="checkbox" id="regularCheckbox" value="checkbox 1" />
-						<span>Regular Checkbox</span>
-					</label>
-					<label>
-						<input type="checkbox" id="secondRegularCheckbox" value="checkbox 2" />
-						<span>Regular Checkbox</span>
-					</label>
+						<label for="">Checkboxes</label>
+						<label>
+							<input type="checkbox" id="regularCheckbox" value="checkbox 1" />
+							<span>Regular Checkbox</span>
+						</label>
+						<label>
+							<input type="checkbox" id="secondRegularCheckbox" value="checkbox 2" />
+							<span>Regular Checkbox</span>
+						</label>
 					</fieldset>
-					
+				
 					<fieldset>
-					<label for="">Radio Buttons</label>
-					<label>
-						<input type="radio" name="radios" id="regularRadio" value="radio 1" />
-						<span>Regular Radio</span>
-					</label>
-					<label>
-						<input type="radio" name="radios" id="secondRegularRadio" value="radio 2" />
-						<span>Regular Radio</span>
-					</label>
+						<label for="">Radio Buttons</label>
+						<label>
+							<input type="radio" name="radios" id="regularRadio" value="radio 1" />
+							<span>Regular Radio</span>
+						</label>
+						<label>
+							<input type="radio" name="radios" id="secondRegularRadio" value="radio 2" />
+							<span>Regular Radio</span>
+						</label>
 					</fieldset>
 				</form>
 			</div>
-			<div class="c4 text-center">
+			<div class="c4">
 				<h4 class="text-center">BUTTONS</h4>
 				<p>
 					<button type="submit" class="small">Small</button> 
@@ -439,14 +458,16 @@
 				</p>
 			</div>
 			<div class="c4">
-				<h4 class="text-center">ALERTS</h4>
+				<h4 class="text-center">ALERTS</h4><br>
 				<div class="alert">Example of an alert box.</div>
 				<div class="alert success">Example of the successful alert box</div>
 				<div class="alert error">Example of the error alert box</div>
 				<div class="alert info">Example of the information alert box</div>
 			</div>
 		</div>
+		
 		<hr>
+		
 		<div class="row spce-bot">
 			<div class="c6">
 				<h4 class="text-center">TABLE</h4>
@@ -486,36 +507,48 @@
 					</tr> 
 				</table>
 			</div>
-			<div class="c6 text-center">
-				<h4 class="">PAGINATION</h4>
-				<br>
-				<ul class="paginate">
+			<div class="c6">
+				<h4 class="text-center">PAGINATION</h4><br>
+				<ul class="paginate text-center">
 					<li><a href=""><strong>&lsaquo;</strong></a></li>
 					<li><a href="">1</a></li>
 					<li><a href="" class="active">2</a></li>
 					<li><a href="">3</a></li>
 					<li><a href="">4</a></li>
-					<li><a href="">5</a></li>
 					<li><a href="" class="more">&hellip;</a></li>
-					<li><a href="">18</a></li>
-					<li><a href="">19</a></li>
-					<li><a href="">20</a></li>
+					<li><a href="">7</a></li>
+					<li><a href="">8</a></li>
+					<li><a href="">9</a></li>
+					<li><a href="">10</a></li>
 					<li><a href=""><strong>&rsaquo;</strong></a></li>
 				</ul>
 				<br>
-				<ul class="paginate paginate-dark">
+				<ul class="paginate paginate-dark text-center">
 					<li><a href=""><strong>&lsaquo;</strong></a></li>
 					<li><a href="">1</a></li>
 					<li><a href="" class="active">2</a></li>
 					<li><a href="">3</a></li>
 					<li><a href="">4</a></li>
-					<li><a href="">5</a></li>
 					<li><a href="" class="more">&hellip;</a></li>
-					<li><a href="">18</a></li>
-					<li><a href="">19</a></li>
-					<li><a href="">20</a></li>
+					<li><a href="">7</a></li>
+					<li><a href="">8</a></li>
+					<li><a href="">9</a></li>
+					<li><a href="">10</a></li>
 					<li><a href=""><strong>&rsaquo;</strong></a></li>
 				</ul>
+				<br><br>
+				
+				<h4 class="text-center">TOOLTIP</h4>
+				<p class="text-center">This is a simple <a title="This is sample tooltip." class="tooltip">tooltip</a> developed by using pure CSS3 only.</p>
+				<br><br>
+				
+				<h4 class="text-center">BREADCRUMB</h4>
+				<ul class="breadcrumb">
+					<li><a href="#">Home</a> <span class="divider">/</span></li>
+					<li><a href="#">Library</a> <span class="divider">/</span></li>
+					<li>Data</li>
+				</ul>
+				
 			</div>
 		</div>
 		<hr>
