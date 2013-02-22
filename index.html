@@ -379,9 +379,9 @@
 		<hr>
 		
 		<div class="row space-bot">
-			<div class="c4">
-				<h4 class="text-center">FORM</h4>
-				<form>
+			<h4 class="text-center">FORMS</h4>
+			<div class="c6">
+				<form name="" id="" action="">
 					<label>Input</label>
 					<input type="text" name="" id="" placeholder="Sample Input" />
 				
@@ -399,51 +399,87 @@
 					<textarea name="" id=""></textarea>
 	
 					<fieldset>
-						<label for="">Checkboxes</label>
+						<label>Checkboxes</label>
 						<label>
-							<input type="checkbox" id="regularCheckbox" value="checkbox 1" />
-							<span>Regular Checkbox</span>
+							<input type="checkbox" id="checkbox" value="checkbox1" />
+							<span>Checkbox1</span>
 						</label>
 						<label>
-							<input type="checkbox" id="secondRegularCheckbox" value="checkbox 2" />
-							<span>Regular Checkbox</span>
+							<input type="checkbox" id="checkbox" value="checkbox2" />
+							<span>Checkbox2</span>
 						</label>
 					</fieldset>
 				
 					<fieldset>
-						<label for="">Radio Buttons</label>
+						<label>Radio Buttons</label>
 						<label>
-							<input type="radio" name="radios" id="regularRadio" value="radio 1" />
-							<span>Regular Radio</span>
+							<input type="radio" name="radio" id="radio" value="radio1" />
+							<span>Radio1</span>
 						</label>
 						<label>
-							<input type="radio" name="radios" id="secondRegularRadio" value="radio 2" />
-							<span>Regular Radio</span>
+							<input type="radio" name="radio" id="radio" value="radio2" />
+							<span>Radio2</span>
 						</label>
 					</fieldset>
 				</form>
 			</div>
-			<div class="c4">
-				<h4 class="text-center">BUTTONS</h4>
+			<div class="c6">
+				<form class="hform">
+					<label>Input</label>
+					<input type="text" name="" id="" placeholder="Sample Input" />
+				
+					<label>Datepicker</label>
+					<input type="date" name="" id="datepicker" placeholder="mm/dd/yyyy" />
+				
+					<label>Select List</label>
+					<select name="" id="">
+						<option value="Option 1">Option 1</option>
+						<option value="Option 2">Option 2</option>
+						<option value="Option 3">Option 3</option>
+					</select>
+				
+					<label>Textarea</label>
+					<textarea name="" id=""></textarea>
+	
+					<label>Checkboxes</label>
+					<fieldset>
+						<input type="checkbox" name="checkbox" id="checkbox" value="checkbox1" />Checkbox1
+						<input type="checkbox" name="checkbox" id="checkbox" value="checkbox2" />Checkbox2
+					</fieldset>
+				
+					<label>Radio Buttons</label>
+					<fieldset>
+						<input type="radio" name="radio" id="radio" value="radio1" />Radio1
+						<input type="radio" name="radio" id="radio" value="radio2" />Radio2
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		
+		<hr>
+		
+		<div class="row">
+			<div class="c4 text-center">
+				<h4>BUTTONS</h4>
 				<p>
-					<button type="submit" class="small">Small</button> 
-					<button type="submit">Default</button> 
-					<button type="submit" class="large">Large</button>
+					<button type="submit" class="small">Small</button>&nbsp;&nbsp;&nbsp;&nbsp; 
+					<button type="submit">Default</button>&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="submit" class="large">Large</button>&nbsp;&nbsp;&nbsp;&nbsp;
 				</p>
 				<p>
-					<button type="submit">Button</button> 
-					<button type="submit" class="skyblue">Button</button> 
-					<button type="submit" class="blue">Button</button>
+					<button type="submit">Button</button> &nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="submit" class="skyblue">Button</button>&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="submit" class="blue">Button</button>&nbsp;&nbsp;&nbsp;&nbsp;
 				</p>
 				<p>
-					<button type="submit" class="green">Button</button> 
-					<button type="submit" class="yellow">Button</button> 
-					<button type="submit" class="orange">Button</button>
+					<button type="submit" class="green">Button</button>&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="submit" class="yellow">Button</button>&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="submit" class="orange">Button</button>&nbsp;&nbsp;&nbsp;&nbsp;
 				</p>
 				<p>
-					<button type="submit" class="red">Button</button> 
-					<button type="submit" class="magenta">Button</button> 
-					<button type="submit" class="black">Button</button>
+					<button type="submit" class="red">Button</button>&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="submit" class="magenta">Button</button>&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="submit" class="black">Button</button>&nbsp;&nbsp;&nbsp;&nbsp;
 				</p>
 			</div>
 			<div class="c4">
@@ -452,6 +488,32 @@
 				<div class="alert success">Example of the successful alert box</div>
 				<div class="alert error">Example of the error alert box</div>
 				<div class="alert info">Example of the information alert box</div>
+			</div>
+			<div class="c4">
+				<h4 class="text-center">TOGGLE SWITCH</h4><br>
+				<div class="switch">
+					<input type="radio" class="switch-input" name="view" value="week" id="week" checked>
+					<label for="week" class="switch-label switch-label-off">Week</label>
+					<input type="radio" class="switch-input" name="view" value="month" id="month">
+					<label for="month" class="switch-label switch-label-on">Month</label>
+					<span class="switch-selection"></span>
+				</div>
+
+				<div class="switch switch-blue">
+					<input type="radio" class="switch-input" name="view2" value="week2" id="week2" checked>
+					<label for="week2" class="switch-label switch-label-off">Week</label>
+					<input type="radio" class="switch-input" name="view2" value="month2" id="month2">
+					<label for="month2" class="switch-label switch-label-on">Month</label>
+					<span class="switch-selection"></span>
+				</div>
+
+				<div class="switch switch-yellow">
+					<input type="radio" class="switch-input" name="view3" value="week3" id="week3" checked>
+					<label for="week3" class="switch-label switch-label-off">Week</label>
+					<input type="radio" class="switch-input" name="view3" value="month3" id="month3">
+					<label for="month3" class="switch-label switch-label-on">Month</label>
+					<span class="switch-selection"></span>
+				</div>
 			</div>
 		</div>
 		
@@ -498,7 +560,7 @@
 			</div>
 			<div class="c6">
 				<h4 class="text-center">PAGINATION</h4><br>
-				<ul class="paginate text-center">
+				<ul class="pagin text-center">
 					<li><a href=""><strong>&lsaquo;</strong></a></li>
 					<li><a href="">1</a></li>
 					<li><a href="" class="active">2</a></li>
@@ -512,7 +574,7 @@
 					<li><a href=""><strong>&rsaquo;</strong></a></li>
 				</ul>
 				<br>
-				<ul class="paginate paginate-dark text-center">
+				<ul class="pagin pagin-dark text-center">
 					<li><a href=""><strong>&lsaquo;</strong></a></li>
 					<li><a href="">1</a></li>
 					<li><a href="" class="active">2</a></li>
@@ -534,13 +596,15 @@
 				<h4 class="text-center">BREADCRUMB</h4>
 				<ul class="breadcrumb">
 					<li><a href="#">Home</a> <span class="divider">/</span></li>
-					<li><a href="#">Library</a> <span class="divider">/</span></li>
-					<li>Data</li>
+					<li><a href="#">Downloads</a> <span class="divider">/</span></li>
+					<li>IVORY</li>
 				</ul>
 				
 			</div>
 		</div>
+		
 		<hr>
+		
 		<div class="row space-bot">
 			<div class="c6">
 				<h4 class="text-center space-bot">TABS</h4>
@@ -549,29 +613,33 @@
 						<input class="tab-radio" type="radio" name="page" value="page1" checked="checked"/>
 						<p class="tab">Tab 1</p>
 						<div class="tab-page" id="page1">
-							<p>Tab1 - Lorem ipsum dolor sit amet. Nues conos grom bosic illes tren. Wilias tos serum kai pen da vatre. Da last der Mullah nicht mit sich scherzen. Zues ter pa beten karl tos serum ka vatre.</p>
+							<p>Tab1 - Lorem ipsum dolor sit amet. Nues conos grom bosic illes tren. Wilias tos serum kai pen da vatre. Da last der Mullah 
+							nicht mit sich scherzen. Zues ter pa beten karl tos serum ka vatre.</p>
 						</div>
 					</label>
 					<label class="tab-label">
 						<input class="tab-radio" type="radio" name="page" value="page2" />
 						<p class="tab">Tab 2</p>
 						<div class="tab-page" id="page1">
-							<p>Tab2 - Nues conos grom bosic illes tren. Muto kan de tar illias me dar. Wilias tos serum kai pen da vatre. Da last der Mullah nicht mit sich scherzen. Zues ter pa beten karl tos serum ka vatre.</p>
+							<p>Tab2 - Nues conos grom bosic illes tren. Muto kan de tar illias me dar. Wilias tos serum kai pen da vatre. Da last der Mullah 
+							nicht mit sich scherzen. Zues ter pa beten karl tos serum ka vatre. Sorus nichie tar vena bes tos amet porus cove rio. Muto kan 
+							de tar illias me dar. Wilias tos serum</p>
 						</div>
 					</label>
 					<label class="tab-label">
 						<input class="tab-radio" type="radio" name="page" value="page3" />
 						<p class="tab">Tab 3</p>
 						<div class="tab-page" id="page1">
-							<p>Tab3 - Lorem ipsum dolor sit amet. Wilias tos serum kai pen da vatre. Da last der Mullah nicht mit sich scherzen. Nues conos grom bosic illes tren. Zues ter pa beten karl tos serum ka vatre.</p>
-							
+							<p>Tab3 - Lorem ipsum dolor sit amet. Wilias tos serum kai pen da vatre. Da last der Mullah nicht mit sich scherzen. Nues conos 
+							grom bosic illes tren. Zues ter pa beten karl tos serum ka vatre.</p>
 						</div>
 					</label>
 					<label class="tab-label">
 						<input class="tab-radio" type="radio" name="page" value="page4" />
 						<p class="tab">Tab 4</p>
 						<div class="tab-page" id="page1">
-							<p>Tab4 - Duto sem iskar sit amet. Nues conos grom bosic illes tren. Wilias tos serum kai pen da vatre. Da last der Mullah nicht mit sich scherzen. Zues ter pa beten karl tos serum ka vatre.</p>
+							<p>Tab4 - Duto sem iskar sit amet. Nues conos grom bosic illes tren. Wilias tos serum kai pen da vatre. Da last der Mullah nicht 
+							mit sich scherzen. Zues ter pa beten karl tos serum ka vatre.</p>
 						</div>
 					</label>
 				</div>
@@ -594,7 +662,9 @@
 				</div>
 			</div>
 		</div>
+		
 		<hr>
+		
 		<div class="row space-bot">
 			<div class="c6">
 				<p>Free to use Under License GPLv2</p>
