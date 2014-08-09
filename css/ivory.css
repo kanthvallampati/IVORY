@@ -742,7 +742,7 @@ table tr.even td{background-color: #fafafa;}
 	   -moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
-.accordion a:hover, .accordion a:focus {opacity:.9; color:#ooo;}
+.accordion a:hover, .accordion a:focus {opacity:.9; color:#000;}
 .accordion a:active {color:#000;}
 .accordion :target + p{
 	margin: 0 2px;
