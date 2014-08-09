@@ -156,12 +156,12 @@ dl dd{margin-left: 15px;}
 	padding: 5px 10px;
 	vertical-align: middle;
 	outline: none;	
-			border-radius: 4px;
-	   -moz-border-radius: 4px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
-			transition: border linear 0.4s, box-shadow linear 0.4s;
-		 -o-transition: border linear 0.4s, box-shadow linear 0.4s;
-	   -moz-transition: border linear 0.4s, box-shadow linear 0.4s;
+	transition: border linear 0.4s, box-shadow linear 0.4s;
+	-o-transition: border linear 0.4s, box-shadow linear 0.4s;
+	-moz-transition: border linear 0.4s, box-shadow linear 0.4s;
 	-webkit-transition: border linear 0.4s, box-shadow linear 0.4s;
 	margin-bottom: 10px;
 	font-size: 13px; 
@@ -176,12 +176,12 @@ dl dd{margin-left: 15px;}
 .hform input[type="datetime-local"]:focus, .hform input[type="date"]:focus, .hform input[type="month"]:focus, .hform input[type="time"]:focus, 
 .hform input[type="week"]:focus, .hform input[type="number"]:focus, .hform input[type="email"]:focus, .hform input[type="url"]:focus, .hform input[type="search"]:focus, 
 .hform input[type="tel"]:focus, .hform input[type="color"]:focus{
-  border: 1px solid;
-  border-color: rgba(82, 168, 236, 0.8);
-  color: #444;
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5);
-     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5);
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5);
+	border: 1px solid;
+	border-color: rgba(82, 168, 236, 0.8);
+	color: #444;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5);
 }
 .vform textarea, .hform textarea{min-height: 120px; }
 .vform fieldset, .hform fieldset {margin-bottom: 10px; }
@@ -201,13 +201,13 @@ dl dd{margin-left: 15px;}
 .vform span.pre, .hform span.pre{margin-right: -1px; float: left;	}
 .vform span.post, .hform span.post{margin-left: -1px; float: left;}
 .vform input.post, .hform input.post, .vform span.pre, .hform span.pre{
-         border-radius: 4px 0 0 4px;
-	   -moz-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+	-moz-border-radius: 4px 0 0 4px;
 	-webkit-border-radius: 4px 0 0 4px;
 }
 .vform input.pre, .hform input.pre, .vform span.post, .hform span.post{
-         border-radius: 0 4px 4px 0;
-	   -moz-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
 	-webkit-border-radius: 0 4px 4px 0;
 }
 .vform input.pre, .vform input.post{width:75%; float:left; height: 30px;}
@@ -243,10 +243,10 @@ button{
 	border:1px solid #dedede;*border:0;
 	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 	border-color:#eeeeee,#dedede,#dedede;
-	        border-radius:4px;
-	     -o-border-radius:4px;
-	    -ms-border-radius:4px;
-	   -moz-border-radius:4px;
+	border-radius:4px;
+	-o-border-radius:4px;
+	-ms-border-radius:4px;
+	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
 	background-color: #f5f5f5;
 	background-image: linear-gradient(top, #f9f9f9, #efefef);
@@ -408,8 +408,8 @@ button.black:hover, button.black:active{
 	font: 14px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: #fcf8e3;
 	border: 1px solid #fbeee0;
-			border-radius: 4px;
-	   -moz-border-radius: 4px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 }
 .success {color: #468847; background-color: #dff0d8; border-color: #d6e9c6;}
@@ -422,18 +422,18 @@ table {
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	border: solid #ccc 1px;
 	border-left: none;
-	        border-radius: 5px;
-	   -moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	        box-shadow: 0 1px 2px #d1d1d1;
-	   -moz-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
 	-webkit-box-shadow: 0 1px 2px #d1d1d1;
 }   
 td, th {border-top: 1px solid #ccc; border-left: 1px solid #ccc; padding: 10px; text-align: left;}
 th {
 	background-color: #f0f0f0;
-	        box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
-	   -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;  
+	box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;  
 	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
 	border-top: none;
 	text-shadow: 0 1px 0 rgba(255,255,255,.5);
@@ -443,23 +443,23 @@ th {
 }
 td{font-size:14px;}
 table tr:first-child th:first-child{
- 	        border-top-left-radius: 5px;
-	    -moz-border-radius-topleft: 5px;
+	    border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
 	-webkit-border-top-left-radius: 5px;
 }
 table tr:first-child th:last-child{
-	        border-top-right-radius: 5px;
-	    -moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
 	-webkit-border-top-right-radius: 5px;
 }
 table tr:last-child td:first-child{
-	        border-bottom-left-radius: 5px;
-	    -moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
 	-webkit-border-bottom-left-radius: 5px;
 }
 table tr:last-child td:last-child{
-	        border-bottom-right-radius: 5px;
-	    -moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
 	-webkit-border-bottom-right-radius: 5px;
 }
 table tr.even td{background-color: #fafafa;}
@@ -468,9 +468,9 @@ table tr.even td{background-color: #fafafa;}
 .pagin ul {list-style: none; margin: 0; padding: 0;}
 .pagin li {display: inline;}
 .pagin a {
-	        border-radius: 3px;
-		   -ms-border-radius: 3px;
-	   -moz-border-radius: 3px;
+	border-radius: 3px;
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	margin: 1px 2px;
 	padding: 5px 10px 5px 5px;
@@ -498,8 +498,8 @@ table tr.even td{background-color: #fafafa;}
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fefefe', EndColorStr='#fafafa');  
 }
 .pagin a.more {
-	        box-shadow: none;
-	   -moz-box-shadow: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
 	border: 0 none !important;
 	background: transparent !important;
@@ -527,13 +527,13 @@ table tr.even td{background-color: #fafafa;}
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#567062', EndColorStr='#3e505e');
 }
 .pagin a, .pagin-dark a {
-		    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-	   -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
 	-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 .pagin a.active, .pagin-dark a.active {
-	        box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.75);
-	   -moz-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.75);
+	box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.75);
 	-webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.75);
 	border-color: #2d3035 !important;
 	color: #fff !important;
@@ -563,8 +563,8 @@ table tr.even td{background-color: #fafafa;}
 {
 	background: #333;
 	background: rgba(0,0,0,.8);
-	        border-radius: 5px;
-	   -moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	bottom: 27px;
 	font-size: 12px;
@@ -588,11 +588,11 @@ table tr.even td{background-color: #fafafa;}
 	background-image: -webkit-linear-gradient(top, #f9f9f9, #eaeaea);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f9f9f9', EndColorStr='#eaeaea');
 	border: 1px solid #ddd;
-		    border-radius: 3px;
-	   -moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-		    box-shadow: inset 0 1px 0 #ffffff;
-	   -moz-box-shadow: inset 0 1px 0 #ffffff;
+	box-shadow: inset 0 1px 0 #ffffff;
+	-moz-box-shadow: inset 0 1px 0 #ffffff;
 	-webkit-box-shadow: inset 0 1px 0 #ffffff;
 }
 .breadcrumb li {display: inline-block; text-shadow: 0 1px 0 #ffffff;}
@@ -606,11 +606,11 @@ table tr.even td{background-color: #fafafa;}
 	width: 100%;
 	max-width: 320px;
 	background: rgba(0, 0, 0, 0.6);
-		    border-radius: 3px;
-	   -moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-         box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(0, 0, 0, 0.1);
-	   -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0.3), 0 1px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0.3), 0 1px rgba(0, 0, 0, 0.1);
 	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(0, 0, 0, 0.1);
 }
 .switch-label {
@@ -628,8 +628,8 @@ table tr.even td{background-color: #fafafa;}
 	font-weight: bold;
 	color: rgba(0, 0, 0, 0.65);
 	text-shadow: 0 1px rgba(255, 255, 255, 0.25);
-	        transition: 0.15s ease-out;
-	   -moz-transition: 0.15s ease-out;
+	transition: 0.15s ease-out;
+	-moz-transition: 0.15s ease-out;
 	-webkit-transition: 0.15s ease-out;
 }
 .switch-input:checked + .switch-label-on ~ .switch-selection {left: 50%;}
@@ -646,14 +646,14 @@ table tr.even td{background-color: #fafafa;}
 	background-image: -moz-linear-gradient(top, #9dd993, #65bd63);
 	background-image: -o-linear-gradient(top, #9dd993, #65bd63);
 	background-image: linear-gradient(to bottom, #9dd993, #65bd63);
-         border-radius: 3px;
-	   -moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-         transition: left 0.15s ease-out;
-	   -moz-transition: left 0.15s ease-out;
+	transition: left 0.15s ease-out;
+	-moz-transition: left 0.15s ease-out;
 	-webkit-transition: left 0.15s ease-out;
-	        box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
-	   -moz-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
 	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
 }
 .switch-blue .switch-selection {
@@ -707,11 +707,11 @@ table tr.even td{background-color: #fafafa;}
 	float: left;
 	padding: 10px;
 	border: 1px solid #cfd2d7;
-	   border-top-right-radius: 5px;
-	 border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-	        box-shadow: 0 1px 3px rgba(0,0,0,.3);
-	   -moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3);
 }
 .tab-container .tab-radio:checked ~ .tab-page { visibility: visible; display: block; height: auto}
@@ -722,12 +722,12 @@ table tr.even td{background-color: #fafafa;}
     background: #fff;
 	font-size: 14px;
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-            border-radius: 5px;
-	   -moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
             
 }
-.accordion p{height:0; margin-bottom:0px; padding:0; color: #888; overflow:hidden;}
+.accordion p {height:0; margin-bottom:0px; padding:0; color: #888; overflow:hidden;}
 .accordion a{
 	display:block; 
 	height:auto; 
@@ -738,8 +738,8 @@ table tr.even td{background-color: #fafafa;}
 	text-decoration:none; 
 	text-align:center; 
 	border-bottom:1px solid #aaa;
-	        border-radius: 5px;
-	   -moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
 .accordion a:hover, .accordion a:focus {opacity:.9; color:#000;}
@@ -748,11 +748,11 @@ table tr.even td{background-color: #fafafa;}
 	margin: 0 2px;
 	padding:10px 15px; 
 	height:auto;
-			border-radius: 5px;
-	   -moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-			box-shadow: 0 1px 3px rgba(0,0,0,.3);
-	   -moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3);
 }	
 
