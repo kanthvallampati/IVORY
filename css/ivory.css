@@ -1,9 +1,9 @@
 /*
- * 
+ *
  * IVORY Framework - http://www.weice.in/ivory
  * Developed by Lakshmikanth Vallampati - kanth.vallampati@gmail.com
- * Licensed under GPLv2 
- * 
+ * Licensed under GPLv2
+ *
  */
 
 /* ---- HTML RESET ---- */
@@ -42,7 +42,7 @@ body{margin:0 auto; color:#666666;}
 .c11{width:91.66%;}
 .c12{width:100%; min-height:1px; float:left; position:relative;}
 .c1-5{width:20%;}/* This column can be used as a one fifth of the row */
-.c1-8{width:12.5%;}/* This column can be used as a one eigth of the row */ 
+.c1-8{width:12.5%;}/* This column can be used as a one eigth of the row */
 .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c1-5,.c1-8 {min-height:1px; float:left; padding-left:10px; padding-right:10px; position:relative;}
 .c1.first,.c2.first,.c3.first,.c4.first,.c5.first,.c6.first,.c7.first,.c8.first,.c9.first,.c10.first,.c11.first,.c1-5.first,.c1-8.first {
 	padding-left: 0; position:relative;
@@ -65,15 +65,15 @@ body{margin:0 auto; color:#666666;}
 .space-hbot {margin-bottom: 10px;}
 
 /* ---- Typography ---- */
-h1, h2, h3, h4, h5, h6 { 
+h1, h2, h3, h4, h5, h6 {
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-	font-weight: none; 
-	font-style: normal; 
+	font-weight: none;
+	font-style: normal;
 	color: #333333;
-	text-rendering: optimizeLegibility; 
-	line-height: 1.1; 
-	margin-bottom: 10px; 
-	margin-top: 10px; 
+	text-rendering: optimizeLegibility;
+	line-height: 1.1;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 80%; color: #333333; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; text-decoration:none; }
@@ -107,12 +107,12 @@ small { font-size: 70%; line-height: inherit; }
 hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 20px 0 20px; height: 0; }
 
 /* ---- Lists ---- */
-ul, ol, dl { 
-	font: normal 14px/24px "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; 
-	margin-bottom: 8px; 
-	list-style-position: inside; 
-	text-indent: 5px; 
-	color: #333333; 
+ul, ol, dl {
+	font: normal 14px/24px "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	margin-bottom: 8px;
+	list-style-position: inside;
+	text-indent: 5px;
+	color: #333333;
 }
 ul li ul, ul li ol { margin-left: 15px; margin-bottom: 0; }
 ul.square {list-style-type: square;}
@@ -133,29 +133,29 @@ dl dd{margin-left: 15px;}
 .hform label {width: 40%; margin-bottom: 10px; }
 .vform label, .hform label {font-size: 14px; line-height: 21px; vertical-align: middle; display: block; float: left; text-align: left;}
 
-.vform textarea, .vform input[type="text"], .vform input[type="password"], .vform input[type="datetime"], .vform input[type="datetime-local"], .vform input[type="date"], 
-.vform input[type="month"], .vform input[type="time"], .vform input[type="week"], .vform input[type="number"], .vform input[type="email"], .vform input[type="url"], 
+.vform textarea, .vform input[type="text"], .vform input[type="password"], .vform input[type="datetime"], .vform input[type="datetime-local"], .vform input[type="date"],
+.vform input[type="month"], .vform input[type="time"], .vform input[type="week"], .vform input[type="number"], .vform input[type="email"], .vform input[type="url"],
 .vform input[type="tel"], .vform input[type="color"], .vform select{
 	width: 100%;
 }
-.hform textarea, .hform input[type="text"], .hform input[type="password"], .hform input[type="datetime"], .hform input[type="datetime-local"], .hform input[type="date"], 
-.hform input[type="month"], .hform input[type="time"], .hform input[type="week"], .hform input[type="number"], .hform input[type="email"], .hform input[type="url"], 
+.hform textarea, .hform input[type="text"], .hform input[type="password"], .hform input[type="datetime"], .hform input[type="datetime-local"], .hform input[type="date"],
+.hform input[type="month"], .hform input[type="time"], .hform input[type="week"], .hform input[type="number"], .hform input[type="email"], .hform input[type="url"],
 .hform input[type="tel"], .hform input[type="color"], .hform select {
 	width: 60%;
 }
 
-.vform textarea, .vform input[type="text"], .vform input[type="password"], .vform input[type="datetime"], .vform input[type="datetime-local"], .vform input[type="date"], 
-.vform input[type="month"], .vform input[type="time"], .vform input[type="week"], .vform input[type="number"], .vform input[type="email"], .vform input[type="url"], 
+.vform textarea, .vform input[type="text"], .vform input[type="password"], .vform input[type="datetime"], .vform input[type="datetime-local"], .vform input[type="date"],
+.vform input[type="month"], .vform input[type="time"], .vform input[type="week"], .vform input[type="number"], .vform input[type="email"], .vform input[type="url"],
 .vform input[type="tel"], .vform input[type="color"], .vform select, .vform input[type=file],
-.hform textarea, .hform input[type="text"], .hform input[type="password"], .hform input[type="datetime"], .hform input[type="datetime-local"], .hform input[type="date"], 
-.hform input[type="month"], .hform input[type="time"], .hform input[type="week"], .hform input[type="number"], .hform input[type="email"], .hform input[type="url"], 
+.hform textarea, .hform input[type="text"], .hform input[type="password"], .hform input[type="datetime"], .hform input[type="datetime-local"], .hform input[type="date"],
+.hform input[type="month"], .hform input[type="time"], .hform input[type="week"], .hform input[type="number"], .hform input[type="email"], .hform input[type="url"],
 .hform input[type="tel"], .hform input[type="color"], .hform select, .hform input[type=file] {
 	display: block;
 	background: #ffffff;
 	border: 1px solid #cccccc;
 	padding: 5px 10px;
 	vertical-align: middle;
-	outline: none;	
+	outline: none;
 			border-radius: 4px;
 	   -moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -164,17 +164,17 @@ dl dd{margin-left: 15px;}
 	   -moz-transition: border linear 0.4s, box-shadow linear 0.4s;
 	-webkit-transition: border linear 0.4s, box-shadow linear 0.4s;
 	margin-bottom: 10px;
-	font-size: 13px; 
-	line-height: 21px; 
+	font-size: 13px;
+	line-height: 21px;
 	height: 30px;
-} 
+}
 .vform input[type="text"]:focus, .vform input[type="password"]:focus, .vform input[type="datetime"]:focus, .vform input[type="email"]:focus,
-.vform input[type="datetime-local"]:focus, .vform input[type="date"]:focus, .vform input[type="month"]:focus, .vform input[type="time"]:focus, 
-.vform input[type="week"]:focus, .vform input[type="url"]:focus, .vform input[type="number"]:focus, .vform input[type="search"]:focus, .vform input[type="tel"]:focus, 
+.vform input[type="datetime-local"]:focus, .vform input[type="date"]:focus, .vform input[type="month"]:focus, .vform input[type="time"]:focus,
+.vform input[type="week"]:focus, .vform input[type="url"]:focus, .vform input[type="number"]:focus, .vform input[type="search"]:focus, .vform input[type="tel"]:focus,
 .vform textarea:focus,
-.hform textarea:focus, .hform input[type="text"]:focus, .hform input[type="password"]:focus, .hform input[type="datetime"]:focus, 
-.hform input[type="datetime-local"]:focus, .hform input[type="date"]:focus, .hform input[type="month"]:focus, .hform input[type="time"]:focus, 
-.hform input[type="week"]:focus, .hform input[type="number"]:focus, .hform input[type="email"]:focus, .hform input[type="url"]:focus, .hform input[type="search"]:focus, 
+.hform textarea:focus, .hform input[type="text"]:focus, .hform input[type="password"]:focus, .hform input[type="datetime"]:focus,
+.hform input[type="datetime-local"]:focus, .hform input[type="date"]:focus, .hform input[type="month"]:focus, .hform input[type="time"]:focus,
+.hform input[type="week"]:focus, .hform input[type="number"]:focus, .hform input[type="email"]:focus, .hform input[type="url"]:focus, .hform input[type="search"]:focus,
 .hform input[type="tel"]:focus, .hform input[type="color"]:focus{
   border: 1px solid;
   border-color: rgba(82, 168, 236, 0.8);
@@ -188,11 +188,11 @@ dl dd{margin-left: 15px;}
 .vform input[type="file"], .hform input[type="file"] {overflow: none;}
 /* conjoined inputs */
 .vform span.pre, .hform span.pre, .vform span.post, .hform span.post {
-	display: block;	
-	background-color: #f2f2f2; 
+	display: block;
+	background-color: #f2f2f2;
 	border: 1px solid #cccccc;
 	color: #222222;
-	font-size: 13px; 
+	font-size: 13px;
 	line-height: 18px;
 	height: 30px;
 	position: relative;
@@ -219,7 +219,7 @@ dl dd{margin-left: 15px;}
 	background-color: #f5f5f5;
 	background-image: linear-gradient(top, #f9f9f9, #efefef);
 	background-image: -ms-linear-gradient(top, #f9f9f9, #efefef);
-	background-image: -moz-linear-gradient(top, #f9f9f9, #efefef);  
+	background-image: -moz-linear-gradient(top, #f9f9f9, #efefef);
 	background-image: -webkit-linear-gradient(top, #f9f9f9, #efefef);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f9f9f9', EndColorStr='#efefef');
 }
@@ -251,7 +251,7 @@ button{
 	background-color: #f5f5f5;
 	background-image: linear-gradient(top, #f9f9f9, #efefef);
 	background-image: -ms-linear-gradient(top, #f9f9f9, #efefef);
-	background-image: -moz-linear-gradient(top, #f9f9f9, #efefef);  
+	background-image: -moz-linear-gradient(top, #f9f9f9, #efefef);
 	background-image: -webkit-linear-gradient(top, #f9f9f9, #efefef);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f9f9f9', EndColorStr='#efefef');
 }
@@ -418,7 +418,7 @@ button.black:hover, button.black:active{
 
 /* ---- Table ---- */
 table {
-	width: 100%; 
+	width: 100%;
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	border: solid #ccc 1px;
 	border-left: none;
@@ -428,16 +428,16 @@ table {
 	        box-shadow: 0 1px 2px #d1d1d1;
 	   -moz-box-shadow: 0 1px 2px #d1d1d1;
 	-webkit-box-shadow: 0 1px 2px #d1d1d1;
-}   
+}
 td, th {border-top: 1px solid #ccc; border-left: 1px solid #ccc; padding: 10px; text-align: left;}
 th {
 	background-color: #f0f0f0;
 	        box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
-	   -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;  
-	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
+	   -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
 	border-top: none;
 	text-shadow: 0 1px 0 rgba(255,255,255,.5);
-	font-size: 14px; 
+	font-size: 14px;
 	line-height: 24px;
 	text-align: center;
 }
@@ -484,7 +484,7 @@ table tr.even td{background-color: #fafafa;}
 	background-color: #f5f5f5;
 	background-image: linear-gradient(top, #f9f9f9, #eaeaea);
 	background-image: -ms-linear-gradient(top, #f9f9f9, #eaeaea);
-	background-image: -moz-linear-gradient(top, #f9f9f9, #eaeaea);  
+	background-image: -moz-linear-gradient(top, #f9f9f9, #eaeaea);
 	background-image: -webkit-linear-gradient(top, #f9f9f9, #eaeaea);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f9f9f9', EndColorStr='#eaeaea');
 }
@@ -495,7 +495,7 @@ table tr.even td{background-color: #fafafa;}
 	background-image: -ms-linear-gradient(top, #fefefe, #fafafa);
 	background-image: -moz-linear-gradient(top, #fefefe, #fafafa);
 	background-image: -webkit-linear-gradient(top, #fefefe, #fafafa);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fefefe', EndColorStr='#fafafa');  
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fefefe', EndColorStr='#fafafa');
 }
 .pagin a.more {
 	        box-shadow: none;
@@ -584,7 +584,7 @@ table tr.even td{background-color: #fafafa;}
 	background-color: #f5f5f5;
 	background-image: linear-gradient(top, #f9f9f9, #eaeaea);
 	background-image: -ms-linear-gradient(top, #f9f9f9, #eaeaea);
-	background-image: -moz-linear-gradient(top, #f9f9f9, #eaeaea);  
+	background-image: -moz-linear-gradient(top, #f9f9f9, #eaeaea);
 	background-image: -webkit-linear-gradient(top, #f9f9f9, #eaeaea);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f9f9f9', EndColorStr='#eaeaea');
 	border: 1px solid #ddd;
@@ -610,7 +610,7 @@ table tr.even td{background-color: #fafafa;}
 	   -moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(0, 0, 0, 0.1);
-	   -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0.3), 0 1px rgba(0, 0, 0, 0.1);
+	   -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(0, 0, 0, 0.1);
 	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(0, 0, 0, 0.1);
 }
 .switch-label {
@@ -667,9 +667,9 @@ table tr.even td{background-color: #fafafa;}
 	background: #c4bb61;
 	background-image: -webkit-linear-gradient(top, #e0dd94, #c4bb61);
 	background-image: -moz-linear-gradient(top, #e0dd94, #c4bb61);
-	background-image: -o-linear-gradient(top, #e0dd94, #c4bb61);	
+	background-image: -o-linear-gradient(top, #e0dd94, #c4bb61);
 	background-image: linear-gradient(to bottom, #e0dd94, #c4bb61);
-}                                 
+}
 
 /* ---- Tabs ---- */
 .tab-container{ position: relative; display: block; height:280px; width: 100%; padding:1px 0; }
@@ -725,28 +725,28 @@ table tr.even td{background-color: #fafafa;}
             border-radius: 5px;
 	   -moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-            
+
 }
 .accordion p{height:0; margin-bottom:0px; padding:0; color: #888; overflow:hidden;}
 .accordion a{
-	display:block; 
-	height:auto; 
-	padding:5px; 
-	line-height:28px; 
-	background-color: #eee; 
-	color:#333; 
-	text-decoration:none; 
-	text-align:center; 
+	display:block;
+	height:auto;
+	padding:5px;
+	line-height:28px;
+	background-color: #eee;
+	color:#333;
+	text-decoration:none;
+	text-align:center;
 	border-bottom:1px solid #aaa;
 	        border-radius: 5px;
 	   -moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
-.accordion a:hover, .accordion a:focus {opacity:.9; color:#ooo;}
+.accordion a:hover, .accordion a:focus {opacity:.9; color:#000;}
 .accordion a:active {color:#000;}
 .accordion :target + p{
 	margin: 0 2px;
-	padding:10px 15px; 
+	padding:10px 15px;
 	height:auto;
 			border-radius: 5px;
 	   -moz-border-radius: 5px;
@@ -754,7 +754,7 @@ table tr.even td{background-color: #fafafa;}
 			box-shadow: 0 1px 3px rgba(0,0,0,.3);
 	   -moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3);
-}	
+}
 
 /* Media query for 960 Screens - sets nested grids to 100% */
 @media only screen and (max-width:960px){
