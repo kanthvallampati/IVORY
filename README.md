@@ -8,8 +8,8 @@ With IVORY you can get fluid-grid, will flexibly adapt its grid to the current b
 layout will morph like a Transformer while resizing the browser width.
 
 
-Contribution
-------------
+##Contribution
+
 Everyone is encouraged to help improve this project in following ways:
 - Suggest or add new features
 - Prepare how to use document
