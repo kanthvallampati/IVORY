@@ -1,3 +1,5 @@
+[![PayPal.me](https://img.shields.io/badge/paypal-donate-119fde.svg)](https://www.paypal.me/LakshmikanthV)
+
 # IVORY
 A powerful CSS framework to build your UI faster and easier.
 
