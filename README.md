@@ -1,6 +1,8 @@
-Thanks for your interest to use ivory. This is respository is no longer maintained. We have revamped the IVORY framework with an advanced design system. Here is the new IVORY - https://github.com/IVORY-UI/ivory.
 
-Kindly use the new IVORY and continue your support to us.
+
+
+This repository is no-longer active in favor of the latest IVORY UI - https://github.com/IVORY-UI/ivory. We highly encourage you to use the latest IVORY.
+
 
 
 IVORY
